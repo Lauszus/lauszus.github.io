@@ -41,6 +41,9 @@ og_locale: "pt_BR"
 twitter_card: "summary_large_image"
 twitter_site: "@lauszus"
 
+gems:
+  - jekyll-seo-tag
+
 # navbar pages
 navbar:
   - slug : about
