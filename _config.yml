@@ -1,15 +1,13 @@
 
 # SEO settings
-title: Simplest
-description: "A free Jekyll theme for download"
-keywords: "Jekyll, theme, free, download, SEO, blog, web"
-url: http://nandomoreira.me
-baseurl: "/simplest"
-# baseurl: null
+title: "Kristian Sloth Lauszus"
+description: "Personal website"
+keywords: "Lauszus, Electronics, Embedded, Robotics"
+url: http://lauszus.com
+baseurl: null
 
-google_analytics: UA-52446115-1
-repo: http://github.com/nandomoreirame/simplest
-disqus_shortname: "nandothemes"
+repo: http://github.com/lauszus/lauszus.github.io
+disqus_shortname: "lauszusthemes"
 
 # Build settings
 permalink   : /:year/:title/
@@ -30,21 +28,21 @@ sass:
 
 # Author settings
 author:
-  name     : Fernando Moreira
-  job      : Frontend Engineer
-  bio      : "Enthusiast performance, responsive design and usability, always looking for the best project and good coffee."
+  name     : Kristian Sloth Lauszus
+  job      : Electrical Engineer
+  bio      : "I have a passion, drive and skill set in the field of Electrical Engineering. My main interests are embedded devices and control systems."
   thumb    : /images/author.jpg
-  email    : nandomoreira.me@gmail.com
-  url      : http://nandomoreira.me
-  github   : http://github.com/nandomoreirame
-  twitter  : http://twitter.com/nandomoreirame
-  facebook : http://facebook.com/fernando.dev
-  linkedin : http://linkedin.com/in/nandomoreirame
+  email    : lauszus@gmail.com
+  url      : http://lauszus.com
+  github   : http://github.com/Lauszus
+  twitter  : http://twitter.com/Lauszus
+  facebook : http://facebook.com/kristian.lauszus
+  linkedin : http://linkedin.com/in/kristian-sloth-lauszus
 
-# social settings
+# Social settings
 og_locale: "pt_BR"
 twitter_card: "summary_large_image"
-twitter_site: "@nandomoreirame"
+twitter_site: "@lauszus"
 
 gems:
   - bourbon
