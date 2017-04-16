@@ -2,7 +2,9 @@
 # the following line to use "https"
 source 'http://rubygems.org'
 
-group :development do
+gem "github-pages", group: :jekyll_plugins
+
+group :jekyll_plugins do
   gem 'html-proofer'
   gem 'jekyll', '~> 3.0', '>= 3.0.1'
   gem 'jekyll-paginate', '~> 1.1'
