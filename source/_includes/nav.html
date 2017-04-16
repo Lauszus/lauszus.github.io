@@ -14,11 +14,11 @@
         <li><a href="{{ '/' | prepend: site.baseurl }}">blog</a></li>
       </ul>
       <ul class="navbar-social">
-        <li><a class="btn-linkedin" href="#"><i class="ion-social-linkedin"></i></a></li>
-        <li><a class="btn-facebook" href="#"><i class="ion-social-facebook"></i></a></li>
-        <li><a class="btn-email" href="#"><i class="ion-email"></i></a></li>
-        <li><a class="btn-github" href="#"><i class="ion-social-github"></i></a></li>
-        <li><a class="btn-twitter" href="#"><i class="ion-social-twitter"></i></a></li>
+        <li><a class="btn-linkedin" href="{{ site.author.linkedin }}"><i class="ion-social-linkedin"></i></a></li>
+        <li><a class="btn-facebook" href="{{ site.author.facebook }}"><i class="ion-social-facebook"></i></a></li>
+        <li><a class="btn-email" href="mailto:{{ site.author.email }}"><i class="ion-email"></i></a></li>
+        <li><a class="btn-github" href="{{ site.author.github }}"><i class="ion-social-github"></i></a></li>
+        <li><a class="btn-twitter" href="{{ site.author.twitter }}"><i class="ion-social-twitter"></i></a></li>
       </ul>
     </div>
   </div>
