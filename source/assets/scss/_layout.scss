@@ -89,8 +89,8 @@ hr {
 }
 
 .logo {
-  float: left;
-  margin: 0 0 1em 0;
+  vertical-align: middle;
+  margin: 0.5em 0 0.5em 0;
   cursor: pointer;
   text-transform: uppercase;
   letter-spacing: 0.8px;
@@ -107,9 +107,8 @@ hr {
   min-height: 64px;
 }
 
-.navbar {
-  float: right;
-  margin: 0;
+.navbar-links {
+  margin: 1em 0;
   position: relative;
   padding: 0;
   pointer-events: all;
@@ -122,6 +121,19 @@ hr {
 
   a {
     @extend .link;
+  }
+}
+
+@media (min-width: $breakpoint-sm-up) {
+  .nav-container,
+  .navbar { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar-links {
+    margin: 0 1em;
   }
 }
 

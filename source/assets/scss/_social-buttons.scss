@@ -1,0 +1,41 @@
+
+.navbar-social {
+  font-size: 2em;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1;
+
+  > li {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  a {
+    transition: background-color .1s;
+    transform: scale(1);
+    background-color: $primary-color;
+    color: white;
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    text-align: center;
+
+    &:active {
+      transform: scale(0.95);
+    }
+  }
+
+  i {
+    position: relative;
+    top: 1px;
+  }
+}
+
+.btn-linkedin:hover {background-color: #0077B5}
+.btn-facebook:hover {background-color: #3b5999}
+.btn-email:hover {background-color: #333}
+.btn-github:hover {background-color: #000}
+.btn-twitter:hover {background-color: #55acee}

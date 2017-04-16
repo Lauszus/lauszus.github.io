@@ -17,7 +17,7 @@ $small-spacing: $base-spacing / 2;
 $base-z-index: 0;
 
 // Colors
-$primary-color: #ec2028;
+$primary-color: #464646;
 $action-color: $primary-color;
 $white-color: #fff;
 $black-color: #000;
@@ -44,3 +44,7 @@ $form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $l
 // Animations
 $base-duration: 150ms;
 $base-timing: ease;
+
+// Breakpoints
+$breakpoint-sm-down: 600px;
+$breakpoint-sm-up: $breakpoint-sm-down + 1;
