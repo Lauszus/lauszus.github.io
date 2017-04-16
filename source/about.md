@@ -4,8 +4,10 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+<img class="avatar" src="https://www.gravatar.com/avatar/04aa3aec79f1845a03eeb74681b57204?s=200" />
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+I have a passion, drive and skill set in the field of Electrical Engineering. I am currently pursuing my Master’s degree in Electrical Engineering as part of the Honours Programme at the Technical University of Denmark.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+My main interests are embedded devices and control systems. I also have some experience in computer vision. I am strong at mathematics, solving complex problems and computer programming. I got advanced skills in C and C++ and competent with Python, Java including Android development, Matlab, C#, Bash, Perl, Verilog, VHDL and various others.
+
+For more information send me an email at <lauszus@gmail.com>.
