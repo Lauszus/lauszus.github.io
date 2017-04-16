@@ -43,6 +43,7 @@ twitter_site: "@lauszus"
 
 gems:
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 # navbar pages
 navbar:
