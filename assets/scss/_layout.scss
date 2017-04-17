@@ -134,11 +134,6 @@ hr {
   width: 1.3em;
   height: 1.3em;
   border: none;
-
-
-  &:focus {
-    outline: 0;
-  }
 }
 
 .navbar-links {
@@ -155,6 +150,14 @@ hr {
 
   a {
     @extend .link;
+  }
+}
+
+@media (max-width: $breakpoint-sm-down) {
+  .nav {
+    *:focus {
+      outline: none;
+    }
   }
 }
 
