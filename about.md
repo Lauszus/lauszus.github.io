@@ -19,13 +19,21 @@ Below is a list of some of my most popular Github repositories:
   </li>
 {% assign repositories = site.github.public_repositories | sort: 'stargazers_count' | reverse %}
 {% for repository in repositories %}
-  {% if repository.stargazers_count > 7 and repository.fork == false %}
+  {% if repository.fork == false and repository.stargazers_count > 7 %}
   <li>
     <a href="{{ repository.html_url }}" target="_blank">{{ repository.name }}</a>
-    <p><script type="text/javascript">replaceURLWithHTMLLinks("{{ repository.description }}")</script></p>
+    <p><script type="text/javascript">document.write(replaceURLWithHTMLLinks("{{ repository.description }}"))</script></p>
   </li>
   {% endif %}
 {% endfor %}
+
+<!-- Load the Github organisation repositories -->
+<div id="github-org-projects"></div>
+<script type="text/javascript">
+$(function() {
+  $("#github-org-projects").loadRepositoriesOrg("TKJElectronics");
+});
+</script>
 </ul>
 
 For more information send me an email at <lauszus@gmail.com>.
