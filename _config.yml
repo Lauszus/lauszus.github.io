@@ -1,7 +1,7 @@
 # SEO settings
 title: "Lauszus"
 description: "Personal website"
-keywords: "Lauszus, Electronics, Embedded, Robotics"
+keywords: "Lauszus, Electronics, Embedded, Robotics, Engineer"
 url: http://lauszus.com
 baseurl: null
 
@@ -28,7 +28,7 @@ author:
   name     : Kristian Sloth Lauszus
   job      : Electrical Engineer
   bio      : "I have a passion, drive and skill set in the field of Electrical Engineering. My main interests are embedded devices and control systems."
-  thumb    : /images/author.jpg
+  avatar   : https://www.gravatar.com/avatar/04aa3aec79f1845a03eeb74681b57204?s=200
   email    : lauszus@gmail.com
   url      : http://lauszus.com
   github   : http://github.com/Lauszus

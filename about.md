@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<img class="avatar" src="https://www.gravatar.com/avatar/04aa3aec79f1845a03eeb74681b57204?s=200" />
+<img class="avatar" src="{{ site.author.avatar }}" />
 
 I have a passion, drive and skill set in the field of Electrical Engineering. I am currently pursuing my Master’s degree in Electrical Engineering as part of the Honours Programme at the Technical University of Denmark.
 
