@@ -12,11 +12,14 @@ title: Home
 
     {% for post in site.categories.project %}
       <article class="post-item">
-        {% if post.blog_url %}
-        {% assign link = 'href="' | append: post.blog_url | append: '" target="_blank"' %}
-        {% else %}
-        {% assign link = 'href="' | append: (post.url | prepend: site.baseurl) | append: '"' %}
-        {% endif %}
+        {% capture link %}
+          {% if post.blog_url %}
+            {{ 'href="' | append: post.blog_url | append: '" target="_blank"' }}
+          {% else %}
+            {% assign url = post.url | prepend: site.baseurl %}
+            {{ 'href="' | append: url | append: '"' }}
+          {% endif %}
+        {% endcapture %}
         <p><span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>  — <strong><a class="post-link" {{ link }}>{{ post.title }}</a></strong> — <span>{{ post.content | strip_html | truncatewords: 100 }}</span> <a class="post-link readmore" {{ link }}>Read more</a></p>
       </article>
     {% endfor %}
