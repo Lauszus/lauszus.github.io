@@ -8,9 +8,10 @@ title: Home
 <section class="post-list">
   <div class="container">
 
-    <h2>Projects</h2>
+    <h2>Highlighted projects</h2>
 
-    {% for post in site.categories.project %}
+    {% assign posts = paginator.posts | where: "category","project" %}
+    {% for post in posts %}
       <article class="post-item">
         {% capture link %}
           {% if post.blog_url %}

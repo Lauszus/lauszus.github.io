@@ -15,7 +15,7 @@ markdown    : kramdown
 highlighter : rouge
 
 paginate: 4
-paginate_path: "/page/:num/"
+paginate_path: "projects/page/:num/"
 comments: false
 
 # Sass configuration
@@ -48,8 +48,8 @@ gems:
 
 # navbar pages
 navbar:
-  - slug : about
-    title: About
+  - slug : projects
+    title: Projects
   - slug : blog
     title: Blog
 
