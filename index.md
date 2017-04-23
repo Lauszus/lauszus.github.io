@@ -3,7 +3,8 @@ layout: page
 title: Home
 ---
 
-<img class="avatar" src="{{ site.author.avatar }}" />
+{% assign github_username = site.author.github | split: '/' | last %}
+{% avatar {{ github_username }} size=200 %}
 
 Hi, I'm <strong class="author-name" itemprop="name">{{ site.author.name }}</strong>, an <em itemprop="jobTitle">{{ site.author.job }}</em>.
 
