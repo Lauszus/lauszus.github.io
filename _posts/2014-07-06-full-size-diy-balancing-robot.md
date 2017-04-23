@@ -16,3 +16,5 @@ Android app: <https://github.com/Lauszus/BalancingRobotFullSizeAndroid>
 
 <!-- DIY Balancing Robot video demonstration  -->
 <div class="youtube" id="80EKp2fpPDo"></div>
+
+<img src="https://github.com/Lauszus/BalancingRobotFullSizeAndroid/raw/master/app_screenshots.png" width="600"/>
