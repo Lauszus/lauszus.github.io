@@ -12,5 +12,10 @@ layout: compress
     </main>
     <script src="{{ "/assets/js/burgermenu.js" | prepend: site.baseurl }}" type="text/javascript"></script>
     <script src="{{ "/assets/js/youtube.js" | prepend: site.baseurl }}" type="text/javascript"></script>
+    <script type="text/javascript">
+      $(window).resize(function() {
+        window.youtube()
+      });
+    </script>
   </body>
 </html>
