@@ -160,6 +160,11 @@ hr {
     }
     -webkit-tap-highlight-color: rgba(0,0,0,0);
   }
+  .navbar-links {
+    li:first-child {
+      padding-left: 0;
+    }
+  }
 }
 
 @media (min-width: $breakpoint-sm-up) {
