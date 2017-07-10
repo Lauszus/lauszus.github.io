@@ -10,6 +10,8 @@ category: project
 
 Blog post: <http://blog.tkjelectronics.dk/2015/08/bachelors-thesis-launchpad-flight-controller>
 
+Report: <https://github.com/Lauszus/LaunchPadFlightController/raw/master/docs/Kristian%20Sloth%20Lauszus%20-%20Flight%20Controller%20for%20Quad%20Rotor%20Helicopter%20in%20X-configuration.pdf>
+
 Github: <https://github.com/Lauszus/LaunchPadFlightController>
 
 Android app: <https://github.com/Lauszus/LaunchPadFlightControllerAndroid>
