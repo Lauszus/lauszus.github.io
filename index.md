@@ -8,7 +8,7 @@ title: Home
 
 Hi, I'm <strong class="author-name" itemprop="name">{{ site.author.name }}</strong>, an <em itemprop="jobTitle">{{ site.author.job }}</em>.
 
-I have a passion, drive and skill set in the field of Electrical Engineering. I am currently pursuing my Master’s degree in Electrical Engineering as part of the Honours Programme at the Technical University of Denmark.
+I have a passion, drive and skill set in the field of Electrical Engineering. I am currently employed at [Candela Speed Boat](http://candelaspeedboat.com).
 
 My main interests are embedded devices and control systems. I also have some experience in computer vision. I am strong at mathematics, solving complex problems and computer programming. I got advanced skills in C and C++ and competent with Python, Java including Android development, Matlab, C#, Bash, Perl, Verilog, VHDL and various others.
 
