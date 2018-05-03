@@ -8,7 +8,7 @@ keywords: ""
 category: project
 ---
 
-Blog post: <http://blog.tkjelectronics.dk/2014/07/full-size-diy-balancing-robot>
+Blog post: <https://blog.tkjelectronics.dk/2014/07/full-size-diy-balancing-robot>
 
 Github: <https://github.com/Lauszus/BalancingRobotFullSize>
 

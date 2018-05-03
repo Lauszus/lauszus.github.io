@@ -8,9 +8,9 @@ keywords: ""
 category: project
 ---
 
-Blog post: <http://blog.tkjelectronics.dk/2013/03/balanduino-balancing-robot-kit>
+Blog post: <https://blog.tkjelectronics.dk/2013/03/balanduino-balancing-robot-kit>
 
-Website: <http://balanduino.com>
+Website: <https://balanduino.com>
 
 Kickstarter: <https://www.kickstarter.com/projects/tkjelectronics/balanduino-balancing-robot-kit>
 
@@ -29,4 +29,4 @@ Android app: <https://github.com/TKJElectronics/BalanduinoAndroidApp>
 
 <a style="border-bottom: none;" href="https://play.google.com/store/apps/details?id=com.tkjelectronics.balanduino"><img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" alt="Google Play" width="200px"/></a>
 
-<img src="http://wiki.balanduino.net/images/2/25/Balanduino_Android_screenshots.png" width="600"/>
+<img src="https://wiki.balanduino.net/images/2/25/Balanduino_Android_screenshots.png" width="600"/>

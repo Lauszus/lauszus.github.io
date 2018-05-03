@@ -8,7 +8,7 @@ keywords: ""
 category: project
 ---
 
-Blog post: <http://blog.tkjelectronics.dk/2015/02/iot-arduino-vending-machine>
+Blog post: <https://blog.tkjelectronics.dk/2015/02/iot-arduino-vending-machine>
 
 Main Github: <https://github.com/Lauszus/ArduinoVendingMachine>
 

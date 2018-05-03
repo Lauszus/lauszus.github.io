@@ -2,11 +2,11 @@
 title: "Lauszus"
 description: "Personal website"
 keywords: "Lauszus, Electronics, Embedded, Robotics, Engineer"
-url: http://lauszus.com
+url: https://lauszus.com
 baseurl: null
 
 google_analytics: UA-97396734-1
-repo: http://github.com/lauszus/lauszus.github.io
+repo: https://github.com/lauszus/lauszus.github.io
 disqus_shortname: "lauszusthemes"
 
 # Build settings
@@ -29,11 +29,11 @@ author:
   job      : Electrical Engineer
   bio      : "I have a passion, drive and skill set in the field of Electrical Engineering. My main interests are embedded devices and control systems."
   email    : lauszus@gmail.com
-  url      : http://lauszus.com
-  github   : http://github.com/Lauszus
-  twitter  : http://twitter.com/Lauszus
-  facebook : http://facebook.com/kristian.lauszus
-  linkedin : http://linkedin.com/in/kristian-sloth-lauszus
+  url      : https://lauszus.com
+  github   : https://github.com/Lauszus
+  twitter  : https://twitter.com/Lauszus
+  facebook : https://facebook.com/kristian.lauszus
+  linkedin : https://linkedin.com/in/kristian-sloth-lauszus
   youtube  : https://www.youtube.com/user/kslauszus
 
 # Social settings

@@ -8,7 +8,7 @@ keywords: ""
 category: project
 ---
 
-Blog post: <http://blog.tkjelectronics.dk/2016/08/raspberry-pi-playing-zombuster>
+Blog post: <https://blog.tkjelectronics.dk/2016/08/raspberry-pi-playing-zombuster>
 
 Github: <https://github.com/Lauszus/ImageAnalysisWithMicrocomputer30330>
 

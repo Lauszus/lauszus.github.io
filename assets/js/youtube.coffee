@@ -14,4 +14,4 @@ window.youtube = ->
       if height != iframe.height
         iframe.height = height
     else
-      $(@).append "<iframe id=\"#{@id}_iframe\" width=\"#{width}\" height=\"#{height}\" src=\"http://www.youtube.com/embed/#{@id}\" frameborder=\"0\" allowfullscreen></iframe>"
+      $(@).append "<iframe id=\"#{@id}_iframe\" width=\"#{width}\" height=\"#{height}\" src=\"https://www.youtube.com/embed/#{@id}\" frameborder=\"0\" allowfullscreen></iframe>"

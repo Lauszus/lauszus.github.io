@@ -8,9 +8,9 @@ keywords: ""
 category: project
 ---
 
-Blog post: <http://blog.tkjelectronics.dk/2012/03/the-balancing-robot>
+Blog post: <https://blog.tkjelectronics.dk/2012/03/the-balancing-robot>
 
-[mbed](http://mbed.com) version: <https://github.com/TKJElectronics/BalancingRobot>
+[mbed](https://mbed.com) version: <https://github.com/TKJElectronics/BalancingRobot>
 
 Arduino version <https://github.com/TKJElectronics/BalancingRobotArduino>
 
